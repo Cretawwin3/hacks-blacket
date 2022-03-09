@@ -1,2 +1,4 @@
 # blacket-hacks
-this is basicly just a shitpost
+hacks for [blacket](http://blacket.us.to/)
+
+(the owner is my friend, so uh dont hurt me)
