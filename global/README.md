@@ -4,3 +4,5 @@
 ### Opens boxes extremly quickly.
 # SpoofBlooks.js
 ### Sets your quantity of all blooks to 999
+# SpoofAdmin.js
+### Shows the admin panel.
