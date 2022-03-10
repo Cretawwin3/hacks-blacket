@@ -6,6 +6,16 @@ if (confirm("Would you like to select the amount of boxes?\nOk - yes\nCancel - n
 } else {
     amt = 999999999999999999;
 }
+
+async function updateTokens() {
+    fetch(`/worker/user/gettokens.php`)
+        .then(function(response) {
+            return response.text();
+        }).then(function(data) {
+            document.getElementById("tokensText").innerHTML = `${data}`;
+        });
+}
+
 function openBox(tokens) {
     var postData = 'box=' + name;
     $.post('/worker/box/openbox.php', postData, function(data) {
@@ -18,6 +28,7 @@ function openBox(tokens) {
 setInterval(() => {
     if (i <= amt) {
         openBox();
+        updateTokens();
         i++
     }
 }, 50);
