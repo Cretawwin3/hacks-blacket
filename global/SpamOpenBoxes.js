@@ -22,6 +22,7 @@ function openBox(tokens) {
         console.log(`${data}`);
         if (data === "NO TOKENS") {
             alert("You are poor, please get more money")
+            window.location.reload();
         }
     });
 }
