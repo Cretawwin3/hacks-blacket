@@ -6,3 +6,5 @@
 ### Sets your quantity of all blooks to 999
 # SpoofAdmin.js
 ### Shows the admin panel.
+# cornhub.js
+#### loads [cornhub](https://www.cornhub.website/) onto the website via iframe
