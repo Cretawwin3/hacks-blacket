@@ -1,4 +1,3 @@
-alert("started spamming API")
 function openBox(name) {
     var postData = 'box=' + name;
     $.post('/worker/box/openbox.php', postData, function(data) {
@@ -14,7 +13,7 @@ for (let i = 1; i <= window.maxID; i++) {
         dataSplit = data.split('|')
         var boxName = dataSplit[0];
         setInterval(() => {
-        openBox(boxName);
+            openBox(boxName);
         }, 5)
     });
 }
