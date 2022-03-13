@@ -13,7 +13,7 @@ function updateTokens() {
     });
 }
 
-function openBox(tokens) {
+function openBox(name) {
     var postData = 'box=' + name;
     $.post('/worker/box/openbox.php', postData, function(data) {
         console.log(`${data}`);
