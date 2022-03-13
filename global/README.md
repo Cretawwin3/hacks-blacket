@@ -10,4 +10,4 @@
 ### Shows the admin panel
 # getBlooks.js
 ### Opens all boxes every 10 MS to attempt to get all blooks.
-#### this is meant to be used by people who where given hella coins by XOTIC
+#### note: this is meant to be used by people who where given hella coins by XOTIC
