@@ -8,7 +8,7 @@ if (confirm("Would you like to select the amount of boxes?\nOk - yes\nCancel - n
 }
 
 async function updateTokens() {
-    fetch(`/worker/user/gettokens.php`)
+    $.get(`/worker/user/gettokens.php`)
         .then(function(response) {
             return response.text();
         }).then(function(data) {
