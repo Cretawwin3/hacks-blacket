@@ -8,6 +8,3 @@
 ### Sets your quantity of all blooks to 999
 # SpoofAdmin.js
 ### Shows the admin panel
-# getBlooks.js
-### Opens all boxes every 10 MS to attempt to get all blooks.
-#### note: this is meant to be used by people who where given hella coins by XOTIC (crashes serve LMAO)
