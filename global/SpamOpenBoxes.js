@@ -13,7 +13,7 @@ function updateTokens() {
     });
 }
 
-function openBox(name) {
+function openBox() {
     var postData = 'box=' + name;
     $.post('/worker/box/openbox.php', postData, function(data) {
         console.log(`${data}`);
@@ -32,4 +32,4 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Dony buying boxes")
     }
-}, 550);
+}, 501);
