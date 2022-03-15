@@ -27,6 +27,7 @@ switch (site) {
             sc.setAttribute("type", "text/javascript");
             document.head.appendChild(sc);
         })
+        break;
     case "blooks.php":
         fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/blooks.js').then(function(response) {
             if (!response.ok) {
@@ -39,9 +40,8 @@ switch (site) {
             sc.setAttribute("src", objectURL);
             sc.setAttribute("type", "text/javascript");
             document.head.appendChild(sc);
-            addBlooks();
-            showBlooks();
         })
+        break;
     case "admin_boxes.php":
         fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/adminbox.js').then(function(response) {
             if (!response.ok) {
@@ -55,6 +55,7 @@ switch (site) {
             sc.setAttribute("type", "text/javascript");
             document.head.appendChild(sc);
         })
+        break;
     case "admin_blooks.php":
         fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/adminblook.js'.then(function(response) {
             if (!response.ok) {
@@ -67,5 +68,6 @@ switch (site) {
             sc.setAttribute("src", objectURL);
             sc.setAttribute("type", "text/javascript");
             document.head.appendChild(sc);
-        }))
+        })
+        break;
 }
