@@ -32,4 +32,4 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Dony buying boxes")
     }
-}, 10);
+}, 550);
