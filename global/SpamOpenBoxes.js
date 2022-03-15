@@ -16,7 +16,6 @@ function openBox() {
         if (data === "You're being rate limited.") {
             i--;
         }
-        
     });
 }
 var check = setInterval(() => {
