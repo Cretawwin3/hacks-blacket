@@ -26,4 +26,4 @@ var check = setInterval(() => {
         clearInterval(check);
         alert("Dony buying boxes")
     }
-}, 750);
+}, 751);
