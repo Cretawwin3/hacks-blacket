@@ -3,8 +3,7 @@ function updateTokens() {
         document.getElementById("tokensText").innerHTML = `${data}`;
     });
 }
-var postData = 'box=Add Tokens';
 setInterval(() => {
-    $.post('/worker/box/openbox.php', postData)
+    $.post('/worker/box/openbox.php', 'box=Add Tokens')
     updateTokens()
 }, 501)
