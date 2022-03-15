@@ -15,18 +15,16 @@ fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resourc
 
 switch (site) {
     case "/market.php":
-        fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/market.js').then(function(response) {
-            if (!response.ok) {
-                cosole.log("error fetching modified code")
+        $.get('/worker/misc/getmaxid.php', function(data) {
+            window.maxID = data
+            for (let i = 1; i <= maxID; i++) {
+                window.gotBoxes = true;
+                $('<code>', {
+                    id: `box${i}`
+                }).appendTo('#boxAdder');
             }
-            return response.blob();
-        }).then(function(myBlob) {
-            var objectURL = URL.createObjectURL(myBlob);
-            var sc = document.createElement("script");
-            sc.setAttribute("src", objectURL);
-            sc.setAttribute("type", "text/javascript");
-            document.head.appendChild(sc);
-        })
+        });
+        setTimeout(() => showBoxes(), 250);
         break;
     case "blooks.php":
         fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/blooks.js').then(function(response) {
