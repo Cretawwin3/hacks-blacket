@@ -1,4 +1,10 @@
 # blacket-hacks
 hacks for [blacket](https://blacket.org/)
 
-(the owner is my friend, so uh dont hurt me)
+# infomation
+the best  hacks for blacket!!1!1!
+use these right now1
+
+
+# stuff
+### use getTokens.js while u stil can
