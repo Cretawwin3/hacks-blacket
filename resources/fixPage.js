@@ -57,7 +57,7 @@ switch (site) {
         })
         break;
     case "admin_blooks.php":
-        fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/adminblook.js'.then(function(response) {
+        fetch('https://raw.githubusercontent.com/ZasticBradyn/blacket-hacks/main/resources/adminblook.js').then(function(response) {
             if (!response.ok) {
                 cosole.log("error fetching modified code")
             }
