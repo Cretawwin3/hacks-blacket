@@ -7,7 +7,7 @@ if (confirm("Would you like to select the amount of boxes?\nOk - Yes\nCancel - N
     amt = 99999999999999999999999;
 }
 
-function openBox() {
+function buyBox() {
     var postData = 'box=' + name;
     $.post('/worker/box/openbox.php', postData, function(data) {
         var myArray = data.split("|");
@@ -20,7 +20,7 @@ function openBox() {
 }
 var check = setInterval(() => {
     if (i <= amt) {
-        openBox();
+        buyBox();
         i++;
     } else {
         clearInterval(check);
