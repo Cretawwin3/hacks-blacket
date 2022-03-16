@@ -1,6 +1,7 @@
 function updateTokens() {
     $.get(`/worker/user/gettokens.php`, function(data) {
-        document.getElementById("tokensText").innerHTML = `${data}`;
+        var x = Number(data).toLocaleString()
+        document.getElementById("tokensText").innerHTML = `${x}`;
     });
 }
 setInterval(() => {
