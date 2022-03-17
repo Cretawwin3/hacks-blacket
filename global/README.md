@@ -3,4 +3,6 @@
 # SpamOpenBoxes.js
 ### Opens boxes extremly quickly.
 # getTokens.js
-#### spam buys the add tokens box
+### spam buys the add tokens box
+# sellDupes.js
+### sells all duplicate blooks
