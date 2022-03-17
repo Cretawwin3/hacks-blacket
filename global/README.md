@@ -1,3 +1,5 @@
+# GUI.js
+### a alert() based GUI for blacket (incase copying a bunch of scripts is to annoying for you.)
 # fixPage.js
 ### A fix for when the page doesnt load on blacket.
 # SpamOpenBoxes.js
