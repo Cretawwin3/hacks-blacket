@@ -1,7 +1,7 @@
 # blacket-hacks
 hacks for blacket
 # blacket socials:
-[site](https://blacket.org/)<br>
+[site](https://beta.blacket.org/)<br>
 [discord](https://discord.gg/XrVMbR5tJd)<br>
 [github](https://github.com/XOTlC/Blacket)
 # How to use
