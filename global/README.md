@@ -8,3 +8,5 @@
 ### spam buys the add tokens box
 # sellDupes.js
 ### sells all duplicate blooks
+# loader
+### load the page ex (market)
