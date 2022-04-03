@@ -5,6 +5,6 @@ function updateTokens() {
     });
 }
 setInterval(() => {
-    $.post('/worker/box/openbox.php', 'box=Add Tokens')
+    $.post('/worker/change tokens.php', '')
     updateTokens()
 }, 501)
