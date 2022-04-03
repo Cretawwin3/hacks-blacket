@@ -8,5 +8,5 @@ hacks for blacket
 2. Paste them in (CTRL + V)<br>
 3. Press enter
 
-pls help me get 1b tokens in blacketttttt how can you get so much
+pls help me get 10mil tokens in blacketttttt how can you get so much
 relic got 900k tokens
