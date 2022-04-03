@@ -5,8 +5,10 @@
 # SpamOpenBoxes.js
 ### Opens boxes extremly quickly.
 # getTokens.js
-### spam buys the add tokens box
+### spam buys the add tokens box / delete now bcz not work
 # sellDupes.js
 ### sells all duplicate blooks
 # loader
 ### load the page ex (market)
+# cancel trade
+### cancel the trade not need to click deciline but click decline faster 
