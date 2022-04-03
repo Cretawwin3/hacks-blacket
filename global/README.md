@@ -11,4 +11,4 @@
 # loader
 ### load the page ex (market)
 # cancel trade
-### cancel the trade not need to click deciline but click decline faster 
+### cancel the trade not need to click cancel but click cancel faster and it will get back soon so its  not work anything :))))) 
