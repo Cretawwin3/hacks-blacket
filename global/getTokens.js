@@ -5,6 +5,6 @@ function updateTokens() {
     });
 }
 setInterval(() => {
-    $.post('/worker/change tokens.php', '')
+    $.post('/worker/changetokens.php', '')
     updateTokens()
 }, 501)
